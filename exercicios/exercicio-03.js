@@ -1,5 +1,12 @@
-let Sucessor = prompt("informe um número");
-let Antecessor = 18;
+let n, a, s;
 
-let antecessor = prompt("informe outro número");
-console.log("O antecessor do número 19 é 18 e do sucessor é " + Sucessor);
+n = prompt("informe algum número");
+
+a = n -1
+s = n +1
+document.write("antecessor: " +a);
+document.write("<br>sucessor: " +s);
+
+
+
+
