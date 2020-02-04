@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário6</title>
+</head>
+<body>
+    <h1>Formulário6</h1>
+    <form>
+            <fieldset>
+                <legend>Dados pessoais</legend>
+                <label for="nome">Nome:</label>
+                <input type="nome" name="nome" id="nome" class="campo-padrao"><br>
+
+                <label for="endereco">Endereço:</label>
+                <input type="endereco" name="endereco" id="endereco" class="campo-padrao"><br>
+
+                <label for="cidade">Cidade:</label>
+                <input name="cidade" id="cidade" class="campo-padrao"><br>
+
+                <label for="uf">Estado</label>
+            <select name="uf" id="uf" class="campo-padrao">
+                <option value="SP">São Paulo</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="ES">Espirito Santo</option>
+            </select>
+            </fieldset><br>
+
+            <fieldset>
+                <legend>Dados Profissionais</legend>
+                <p>Natureza do Cargo</p>
+                <input type="radio" name="gerencia" value="gerencia">Gerência
+                <input type="radio" name="financeiro" value="financeiro">Financeiro
+                <input type="radio" name="Recepçao" value="recepçao">Recepção
+                <input type="radio" name="administrativo" value="administrativo">Administrativo
+                <input type="radio" name="juridico" value="juridico">Jurídico
+
+                <p>Área de interesse</p>
+                    <input type="checkbox" name="comp" value="comp">Computação
+                    <input type="checkbox" name="bio" value="bio">Biologia
+                    <input type="checkbox" name="Meio ambiente" value="MA">Meio Ambiente
+                    <input type="checkbox" name="ENG" value="eng">Engenharia
+                    <input type="checkbox" name="his" value="his">História<br>
+
+                    <label for="Texto">Mini currículo:</label>
+            <textarea id="Texto"></textarea><br>
+
+            <button type="submit">Enviar</button>
+            <button type="submit">Limpar</button>
+    
+            </fieldset>
+
+
+
+    </form>
+</body>
+</html>
